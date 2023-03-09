@@ -1,0 +1,149 @@
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.fillout-box {
+    max-width: 680px;
+    width: 100%;
+    height: 360px;
+    background: #e9e8e9;
+    position: relative;
+    margin: auto;
+}
+.title {
+    padding: 1px;
+    width: 100%;
+    text-align: center;
+}
+
+.fillout-table {
+    /* border:  1px solid black;  */
+    border-collapse: collapse;
+    border-width: 1px;
+    width: 90%; 
+    margin: auto;
+}
+
+.fillout-table td:nth-child(1){
+    width: 30%; 
+    padding-left: 20px; 
+}
+
+.fillout-table td:nth-child(2){
+    width: 60%; 
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    vertical-align: middle;
+}
+
+
+/* td,th {
+    border: 1px solid black;
+} */
+
+input[type=text] {
+    width: 75%;
+    height: 30px;
+    font-size: 12px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+    /* border: 1px solid red; */
+    /* box-shadow: 2px 2px 3px grey; */
+}
+
+input[type=text]:focus {
+    /* box-shadow: 2px 2px 3px red ; */ 
+    outline: 4px solid #a4c4f8;
+}
+
+.addBtn {
+    background: #475aee;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: absolute;
+    right: 3.5%;
+    bottom: 3%;
+    cursor: pointer;
+    border: 4px solid #475aee;
+}
+
+.addBtn:hover {
+    /* background-color: chocolate;  */
+    border-radius: 5px;
+    border: 4px solid hsl(218, 38%, 76%);
+}
+
+.img-wrap {
+    position: relative;
+    padding: 1px;
+    display: inline;
+    width: 30%;
+    margin: 10px auto;
+}
+
+
+
+.top-center{
+    top: 10%;
+    font-size: 30px;
+    
+    /* transform: translate(-50%, -50%); */
+}
+
+.bottom-center{
+    padding: 1px 1px;    
+    bottom: 0px;
+    right: 0%;
+    left: 0%;
+    font-size: 30px;
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+}
+
+.centered {
+    padding: 1px 1px;    
+    top: 50%;
+    right: 0%;
+    left: 0%;
+    position: absolute;
+    /* left: 50%; */ 
+    /* transform: translate(-50%, -50%);     */
+}
+
+/* ================================================== */
+
+.container {
+    width: 300px;
+    height: 300px;
+    /* display: inline; */
+}
+.imgBox {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.imgBox:hover {
+    filter: brightness(40%);
+    color: white;
+}
+.imgAdd {
+    width: 100%;
+    position: absolute;
+}
+
+.textBox {
+    width: 100%;
+    height: 100%;    
+    position: absolute;
+    text-align: center;
+}
