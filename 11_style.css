@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:focus {
+ /* TODO */
+}
+
+/* Gradient */
+body {
+  background-image: linear-gradient(to right, yellow, red);
+  /* padding: 0 20px;     */
+}
+
+input {
+ /* TODO */
+}
+
+/* div that wraps the input box */
+.search-container {
+  max-width: 450px;
+  margin: 150px auto;
+  background: #fff;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
+}
+.search-container input,
+.search-container .suggestions {
+/* TODO */  
+
+}
+.search-container input {
+  height: 55px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 60px 0 20px;
+  font-size: 18px;
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.1); */
+}
+.search-container .suggestions{
+  padding: 0;
+  opacity: 0;
+  pointer-events: none;
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.search-container.active .suggestions{
+  padding: 10px 8px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.suggestions{
+  list-style: none;
+  padding: 8px 12px;
+  display: none;
+  width: 100%;
+  cursor: default;
+  border-radius: 3px;
+}
+
+.search-container.active .suggestions{
+  display: block;
+}
+
+ul {
+  /* TODO */
+}
+ul.has-suggestions {
+  /* TODO */
+}
+ul li {
+  /* list-style: none;
+  padding: 8px 12px;
+  /* display: none; */
+  /* width: 100%;
+  cursor: default;
+  border-radius: 3px; */ */
+}
+
+ul li:hover {
+  background: #efefef;
+}
+
+input {
+
+  /* position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+
+}
